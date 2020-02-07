@@ -12,6 +12,7 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
+    "@angular/cli": "^9.0.1",
     "@graphql-codegen/typescript": "^1.12.2",
     "@nrwl/angular": "^8.12.2",
     "@nrwl/jest": "^8.12.2",
