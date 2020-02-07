@@ -1,0 +1,25 @@
+{
+  "name": "graphql-codegen-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "nx format:write",
+    "format:write": "nx format:write",
+    "format:check": "nx format:check"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@graphql-codegen/typescript": "^1.12.2",
+    "@nrwl/angular": "^8.12.2",
+    "@nrwl/jest": "^8.12.2",
+    "@nrwl/nest": "^8.12.2",
+    "@nrwl/node": "^8.12.2",
+    "@nrwl/react": "^8.12.2",
+    "@nrwl/workspace": "^8.12.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  }
+}

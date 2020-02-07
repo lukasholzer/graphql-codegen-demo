@@ -1,0 +1,8 @@
+{
+  "proseWrap": "always",
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "css"
+}
