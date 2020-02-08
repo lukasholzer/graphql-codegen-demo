@@ -1,16 +1,38 @@
 {
   "name": "graphql-codegen-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
   "scripts": {
-    "format": "nx format:write",
-    "format:write": "nx format:write",
-    "format:check": "nx format:check"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "./node_modules/.bin/nx lint && ng lint",
+    "e2e": "ng e2e",
+    "affected:apps": "./node_modules/.bin/nx affected:apps",
+    "affected:libs": "./node_modules/.bin/nx affected:libs",
+    "affected:build": "./node_modules/.bin/nx affected:build",
+    "affected:e2e": "./node_modules/.bin/nx affected:e2e",
+    "affected:test": "./node_modules/.bin/nx affected:test",
+    "affected:lint": "./node_modules/.bin/nx affected:lint",
+    "affected:dep-graph": "./node_modules/.bin/nx affected:dep-graph",
+    "affected": "./node_modules/.bin/nx affected",
+    "format": "./node_modules/.bin/nx format:write",
+    "format:write": "./node_modules/.bin/nx format:write",
+    "format:check": "./node_modules/.bin/nx format:check",
+    "update": "ng update @nrwl/schematics",
+    "update:check": "ng update",
+    "workspace-schematic": "./node_modules/.bin/nx workspace-schematic",
+    "dep-graph": "./node_modules/.bin/nx dep-graph",
+    "help": "./node_modules/.bin/nx help"
   },
   "author": "",
   "license": "ISC",
   "private": true,
+  "dependencies": {
+    "@nestjs/common": "^6.11.6",
+    "@nestjs/core": "^6.11.6",
+    "@nestjs/platform-express": "^6.11.6"
+  },
   "devDependencies": {
     "@angular/cli": "^9.0.1",
     "@graphql-codegen/typescript": "^1.12.2",
@@ -19,7 +41,13 @@
     "@nrwl/nest": "^8.12.2",
     "@nrwl/node": "^8.12.2",
     "@nrwl/react": "^8.12.2",
+    "@nrwl/schematics": "^8.12.2",
     "@nrwl/workspace": "^8.12.2",
+    "@types/node": "^13.7.0",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
   }
