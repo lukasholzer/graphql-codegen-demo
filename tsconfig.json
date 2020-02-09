@@ -11,11 +11,15 @@
     "target": "es2015",
     "module": "esnext",
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom", "esnext.asynciterable"],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo/api/product": ["libs/api/product/src/index.ts"],
+      "@demo/api/shared": ["libs/api/shared/src/index.ts"],
+      "@demo/shared/interfaces": ["libs/shared/interfaces/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
