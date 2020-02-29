@@ -1,18 +1,21 @@
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ProductModule } from '@demo/api/product';
+import { environment } from '../environments/environment';
 
 @Module({
   imports: [
     ProductModule,
     GraphQLModule.forRoot({
-      debug: true,
-      playground: true,
+      debug: !environment.production,
+      playground: !environment.production,
       installSubscriptionHandlers: true,
-      autoSchemaFile: 'libs/shared/interfaces/src/schema.graphql'
-    })
+      autoSchemaFile: environment.production
+        ? true
+        : 'libs/shared/interfaces/src/schema.graphql',
+    }),
   ],
   controllers: [],
-  providers: []
+  providers: [],
 })
 export class AppModule {}
