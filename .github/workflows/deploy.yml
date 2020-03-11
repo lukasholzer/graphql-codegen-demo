@@ -22,10 +22,12 @@ jobs:
         with:
           node-version: '12.x'
 
+      - name: install
+        run: npm ci
+
       - name: build
-        run: |
-          npm ci
-          npx ng build --prod
+        run: npm ci
+          npm run nx build --prod
 
       - name: ZEIT Now Deployment
         uses: amondnet/now-deployment@v1
