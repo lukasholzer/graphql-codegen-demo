@@ -7,8 +7,8 @@ import { environment } from '../environments/environment';
   imports: [
     ProductModule,
     GraphQLModule.forRoot({
-      debug: !environment.production,
-      playground: !environment.production,
+      debug: true,
+      playground: true,
       installSubscriptionHandlers: true,
       autoSchemaFile: environment.production
         ? true

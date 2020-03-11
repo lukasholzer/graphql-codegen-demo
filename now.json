@@ -1,6 +1,8 @@
 {
   "version": 2,
-  "name": "graphql-codegen-demo",
+  "github": {
+    "enabled": false
+  },
   "builds": [
     {
       "src": "dist/apps/api/main.js",
