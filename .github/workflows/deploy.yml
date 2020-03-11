@@ -4,7 +4,7 @@ on:
     branches:
       - master
 jobs:
-  angular:
+  api:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,7 +27,7 @@ jobs:
 
       - name: build
         run: npm ci
-          npm run nx build --prod
+          npm run nx build api --prod
 
       - name: ZEIT Now Deployment
         uses: amondnet/now-deployment@v1
