@@ -30,7 +30,7 @@ jobs:
           npm run nx build api --prod
 
       - name: ZEIT Now Deployment
-        uses: amondnet/now-deployment@v1
+        uses: amondnet/now-deployment@v2
         id: now-deployment
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
