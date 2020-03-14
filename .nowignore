@@ -1,1 +1,4 @@
-!/dist
+# Ignore everything (folders and files) on root only
+/**
+!dist/**
+!now.json
