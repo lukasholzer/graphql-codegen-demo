@@ -1,0 +1,16 @@
+{
+  "name": "graphql-codegen-api",
+  "engines": {
+    "node": "<= 12.6.1"
+  },
+  "dependencies": {
+    "@nestjs/common": "",
+    "@nestjs/core": "",
+    "@nestjs/graphql": "",
+    "@nestjs/platform-express": "",
+    "apollo-server-express": "",
+    "graphql": "",
+    "reflect-metadata": "",
+    "rxjs": ""
+  }
+}

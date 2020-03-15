@@ -59,6 +59,7 @@
     "dotenv": "6.2.0",
     "eslint": "6.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "generate-package-json-webpack-plugin": "^1.0.1",
     "graphql-tools": "^4.0.6",
     "jest": "24.1.0",
     "prettier": "1.18.2",
