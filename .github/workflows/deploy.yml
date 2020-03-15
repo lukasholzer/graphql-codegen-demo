@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master
+      - ci/now-deployment-fix
+
 jobs:
   api:
     runs-on: ubuntu-latest
@@ -26,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: build
-        run: npm ci
+        run: |
           npm run nx build api --prod
 
       - name: ZEIT Now Deployment
