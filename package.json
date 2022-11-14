@@ -29,7 +29,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "@nestjs/common": "^6.8.3",
+    "@nestjs/common": "^9.2.0",
     "@nestjs/core": "^6.8.3",
     "@nestjs/graphql": "^6.5.4",
     "@nestjs/platform-express": "^6.8.3",
