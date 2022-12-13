@@ -31,7 +31,7 @@
   "dependencies": {
     "@nestjs/common": "^6.8.3",
     "@nestjs/core": "^6.8.3",
-    "@nestjs/graphql": "^6.5.4",
+    "@nestjs/graphql": "^10.1.6",
     "@nestjs/platform-express": "^6.8.3",
     "apollo-server-express": "^2.10.0",
     "graphql": "^14.6.0",
@@ -39,12 +39,12 @@
     "rxjs": "^6.5.4"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^1.12.2",
-    "@graphql-codegen/fragment-matcher": "1.12.2",
-    "@graphql-codegen/introspection": "1.12.2",
-    "@graphql-codegen/typescript-document-nodes": "1.12.2",
-    "@graphql-codegen/typescript-graphql-files-modules": "1.12.2",
-    "@graphql-codegen/typescript-mongodb": "1.12.2",
+    "@graphql-codegen/cli": "^1.21.8",
+    "@graphql-codegen/fragment-matcher": "1.17.8",
+    "@graphql-codegen/introspection": "1.18.2",
+    "@graphql-codegen/typescript-document-nodes": "1.17.16",
+    "@graphql-codegen/typescript-graphql-files-modules": "1.18.1",
+    "@graphql-codegen/typescript-mongodb": "1.19.5",
     "@nestjs/schematics": "^6.7.0",
     "@nestjs/testing": "^6.11.6",
     "@nrwl/eslint-plugin-nx": "9.0.3",
